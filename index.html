@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-pt-24">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="شامي ميديا - وكالة تصميم وبرمجة تقدم حلولاً جاهزة للمطاعم، العيادات، ومكاتب السفر. تصميم مواقع، هويات بصرية، وأنظمة إدارة بأسعار تنافسية." />
+    <meta property="og:title" content="شامي ميديا | حلول جاهزة لمشروعك" />
+    <meta property="og:description" content="وكالة تصميم وبرمجة تقدم حلولاً ذكية: منيو إلكتروني، أنظمة حجز، هويات بصرية." />
+    <meta property="og:image" content="/images/logo.svg" />
+
+    <title>شامي ميديا | حلول جاهزة لمشروعك</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 100px;
+      }
+      body {
+        font-family: 'Cairo', sans-serif;
+        line-height: 1.9;
+      }
+      ::selection {
+        background-color: #6A3EEA;
+        color: white;
+      }
+
+      /* Scrollbar */
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #f3f4f6; }
+      ::-webkit-scrollbar-thumb {
+        background: #6A3EEA;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #5a32c4;
+      }
+
+      .animate-on-scroll {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: 0.8s ease;
+      }
+      .animate-on-scroll.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+
+  </head>
+
+  <body class="bg-slate-50 text-gray-800 antialiased overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

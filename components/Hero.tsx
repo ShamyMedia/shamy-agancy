@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary-600 to-secondary opacity-30 blur-2xl rounded-[2rem] group-hover:opacity-40 transition-opacity duration-500"></div>
               
               <img 
-                src="https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/solution-design.jpg" 
+                src="/images/solution-design.jpg" 
                 alt="Digital Agency Team" 
                 className="relative rounded-2xl shadow-2xl border border-white/10 object-cover h-[300px] sm:h-[400px] md:h-[550px] w-full"
               />

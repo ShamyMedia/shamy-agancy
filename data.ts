@@ -149,7 +149,7 @@ export const contentData: { en: Content; ar: Content } = {
           role: 'Health Brand', 
           content: 'We improved our ads and achieved a sales increase.', 
           time: '10:30 AM',
-          image: 'https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/lipofit1.jpg'
+          image: '/images/lipofit1.jpg'
         },
         { 
           id: '2', 
@@ -157,7 +157,7 @@ export const contentData: { en: Content; ar: Content } = {
           role: 'Dental Clinic', 
           content: 'Saved us a terrible amount of time on appointments.', 
           time: 'Yesterday',
-          image: 'https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/solution-clinic.jpg'
+          image: '/images/solution-clinic.jpg'
         },
         { 
           id: '3', 
@@ -165,7 +165,7 @@ export const contentData: { en: Content; ar: Content } = {
           role: 'Restaurant', 
           content: 'Awesome menu, customers loved it.', 
           time: '2:15 PM',
-          image: 'https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/custom-1.jpg'
+          image: '/images/custom-1.jpg'
         },
       ]
     },
@@ -322,7 +322,7 @@ export const contentData: { en: Content; ar: Content } = {
           role: 'براند صحي', 
           content: 'قدرنا نطور اعلاناتنا وحققنا زيادة في المبيعات.', 
           time: '١٠:٣٠ ص',
-          image: 'https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/lipofit1.jpg'
+          image: '/images/lipofit1.jpg'
         },
         { 
           id: '2', 
@@ -330,7 +330,7 @@ export const contentData: { en: Content; ar: Content } = {
           role: 'عيادة أسنان', 
           content: 'وفّر علينا وقت رهيب في المواعيد.', 
           time: 'أمس',
-          image: 'https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/solution-clinic.jpg'
+          image: '/images/solution-clinic.jpg'
         },
         { 
           id: '3', 
@@ -338,7 +338,7 @@ export const contentData: { en: Content; ar: Content } = {
           role: 'مطعم', 
           content: 'منيو زي الفل، العملاء حبّوه.', 
           time: '٢:١٥ م',
-          image: 'https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/custom-1.jpg'
+          image: '/main/images/custom-1.jpg'
         },
       ]
     },

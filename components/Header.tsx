@@ -54,7 +54,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center gap-2 z-50 relative">
              <img 
-               src="https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/logo.png" 
+               src="/images/logo.png" 
                alt="Shamy Media" 
                className="h-10 md:h-12 w-auto object-contain"
              />
@@ -116,7 +116,7 @@ const Header: React.FC = () => {
             {/* Mobile Header Row (Logo + Close) */}
             <div className="container mx-auto px-4 py-4 flex items-center justify-between shrink-0">
                <img 
-                 src="https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/logo.png" 
+                 src="/images/logo.png" 
                  alt="Shamy Media" 
                  className="h-10 w-auto object-contain"
                />

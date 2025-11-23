@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
            <div className="text-center md:text-start flex flex-col items-center md:items-start">
               <img 
-                 src="https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/logo.png" 
+                 src="images/logo.png" 
                  alt="Shamy Media" 
                  className="h-14 w-auto object-contain mb-4"
               />

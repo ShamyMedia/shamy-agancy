@@ -45,7 +45,8 @@ const Hero: React.FC = () => {
             
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <a 
-                href="https://wa.me/201006404614" 
+             href="https://wa.me/201006404614" 
+             target="_blank"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-secondary hover:bg-secondary-hover text-white text-lg font-bold px-8 py-4 rounded-xl shadow-lg shadow-secondary/20 transition-all transform hover:-translate-y-1"
               >
                 <MessageCircle size={22} />

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shamy Media | شامي ميديا</title>
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/favicon-16x16.png">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#7C3AED', // Violet 600
+                50: '#F5F3FF',
+                100: '#EDE9FE',
+                500: '#8B5CF6',
+                600: '#7C3AED',
+                700: '#6D28D9',
+              },
+              secondary: {
+                DEFAULT: '#25D366', // WhatsApp Green
+                hover: '#20bd5a',
+              },
+              dark: {
+                DEFAULT: '#0B0A14', // Deep Violet Black (Brand Identity)
+                card: '#15141F', // Slightly lighter for cards
+                text: '#F8FAFC'
+              }
+            },
+            fontFamily: {
+              sans: ['Outfit', 'sans-serif'],
+              cairo: ['Cairo', 'sans-serif'],
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0B0A14;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #7C3AED;
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6D28D9;
+      }
+      
+      /* Firefox */
+      html {
+        scrollbar-width: thin;
+        scrollbar-color: #7C3AED #0B0A14;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white text-slate-900 overflow-x-hidden selection:bg-primary-600 selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -338,7 +338,7 @@ export const contentData: { en: Content; ar: Content } = {
           role: 'مطعم', 
           content: 'منيو زي الفل، العملاء حبّوه.', 
           time: '٢:١٥ م',
-          image: '/main/images/custom-1.jpg'
+          image: '/images/custom-1.jpg'
         },
       ]
     },

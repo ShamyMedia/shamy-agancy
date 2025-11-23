@@ -18,7 +18,7 @@ const Process: React.FC = () => {
       {/* Background Image with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://raw.githubusercontent.com/ShamyMedia/Shamy-Menu/refs/heads/main/images/about-bg.jpg" 
+          src="/images/about-bg.jpg" 
           alt="How we work background" 
           className="w-full h-full object-cover"
         />
